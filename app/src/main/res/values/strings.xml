@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">brasilfit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="comecar">Já sou Aluno</string>
+    <string name="cadastro">Não Sou Aluno</string>
+    <string name ="carregar">Fazer Reserva</string>
+</resources>

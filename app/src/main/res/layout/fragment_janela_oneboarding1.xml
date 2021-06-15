@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradiente_black">
+
+        <ImageView
+            android:id="@+id/ivPrimeiraTela"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/oneboarding"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/vPrimeiraTela"
+            android:layout_width="0dp"
+            android:layout_height="350dp"
+            android:background="@drawable/gradiente_black"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/ivPrimeiraTela"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvPrimeiraTela"
+            style="@style/Widget.MeuTitulo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Seu treino sempre a mão"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/vPrimeiraTela"
+            app:layout_constraintStart_toStartOf="@+id/vPrimeiraTela"
+            app:layout_constraintTop_toTopOf="@+id/vPrimeiraTela" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
